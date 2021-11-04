@@ -63,7 +63,7 @@ class CartCard extends React.Component {
     localStorage.setItem("userCart", JSON.stringify(userCartFromLocSt));
     this.itemsOnCartCalculator()
     this.purchaseTVCalculator();
-    window.location.reload(); // Necessário para que o cabeçalho mostre a quantidade e o valor total da compra, a cada nova adição.
+    location.reload(); // Necessário para que o cabeçalho mostre a quantidade e o valor total da compra, a cada nova adição.
   }
 
   subItem = ({ target }) => { // Função que atualiza, no local storage, as chaves "userCart", "totalItemsOnCart" e "purchaseTotalValue" quando o usuário reduz o número de unidades que deseja comprar, do produto. A chave "productQuant", do estado, também é atualizada com a nova quantidade.
