@@ -83,7 +83,7 @@ class CartCard extends React.Component {
       localStorage.setItem("userCart", JSON.stringify(userCartFromLocSt));
       this.itemsOnCartCalculator();
       this.purchaseTVCalculator();
-      window.location.reload(); // Necessário para que o cabeçalho mostre a quantidade e o valor total da compra, a cada nova subtração..
+      location.reload(); // Necessário para que o cabeçalho mostre a quantidade e o valor total da compra, a cada nova subtração..
     }
   }
 
