@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import Home from './pages/Home';
 import Cart from './pages/Cart';
 import ProductDetails from './pages/ProductDetails';
@@ -17,6 +17,7 @@ function App() {
             path="/products/:id"
             render={ (props) => <ProductDetails { ...props } /> }
           />
+          <Redirect to="/trybe_frontend_5-online_store/cart" /> {/* Resolução do problema de reload Cart, no GH Pages. */}
         </Switch>
       </BrowserRouter>
     </div>
