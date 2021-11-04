@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1em;
+}
+
+body {
+  background-color: #EEEEEE;
+}
+
+#homepage {
+  background-color: #EEEEEE;
+}
+
+#homepageMain {
+  display: flex;
+  flex-direction: column;
+}
+
+#searchContainer {
+  background-image: linear-gradient(to bottom right, #334257, #476072, #8796a1);
+  border-radius: 16px 40px;
+  width: 70%;
+  align-self: center;
+  margin: 1.5% 0;
+  padding: 2% 0;
+}
+
+#clearBtn {
+  background-color: #d8d9da;
+  border-radius: 4px 10px;
+  font-size: 1.3em;
+  margin-right: 5px;
+  padding: 0.2% 0.4%;
+  transition: 0.3s width ease-in-out;
+}
+
+#clearBtn:hover {
+  background-color: #f5cece;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#searchBar {
+  border-radius: 10px 4px;
+  font-size: 1.4em;
+  width: 25%;
+  margin: 0 0.8%;
+  padding: 0.3%;
+  transition: 0.3s width ease-in-out;
+}
+
+#searchBar:focus {
+  background-color: #C7E2B2;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  outline: none;
+  width: 33%;
+}
+
+#searchBtn {
+  background-color: #d8d9da;
+  border-radius: 4px 10px;
+  font-size: 1.3em;
+  margin-right: 5px;
+  padding: 0.2% 0.4%;
+  transition: 0.3s width ease-in-out;
+}
+
+#searchBtn:hover {
+  background-color: #C7E2B2;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#searchBtn:disabled:hover {
+  background-color: #d8d9da;
+}
+
+#homepageCenter {
+  background-image: linear-gradient(#334257, #476072, #8796a1);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#categoriesContainer1 {
+  background-image: linear-gradient(#334257, #476072);
+  border-right: solid 4px #FFDA77;
+  width: 20%;
+}
+
+#productsDisplay {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 80%;
+  padding-bottom: 2%;
+}
+
+#initialMessage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  margin-top: 1%;
+}
+
+#initialMessage h2 {
+  color: #FFDA77;
+  font-size: 1.5em;
+  text-decoration: overline;
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: 5%;
+}
+
+#initialMessage img {
+  width: 60%;
+}
+
+#nothingFound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  margin-top: 1%;
+}
+
+#nothingFound h2 {
+  color: #FFDA77;
+  font-size: 1.5em;
+  text-decoration: overline;
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: 5%;
+}
+
+#nothingFound img {
+  width: 45%;
+}
