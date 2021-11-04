@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" render={ () => <Home /> } />
-          <Route exact path="/cart" render={ () => <Cart /> } />
+          <Route exact path="/trybe_frontend_5-online_store/" render={ () => <Home /> } />
+          <Route exact path="/trybe_frontend_5-online_store/cart" render={ () => <Cart /> } />
           <Route
             exact
             path="/products/:id"

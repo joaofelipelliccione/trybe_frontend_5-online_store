@@ -11,7 +11,7 @@ class Card extends React.Component {
       <div className="cardContainer2">
         <Link // Todo o card é englobado por um componente <Link>. Tal componente permite que, quando o Card seja clicado, a página ProductDetails seja aberta.
           to={ {
-            pathname: `/products/${productId}`, // É importante pontuar que, cada Card, possui sua própria página ProductDetails, cuja URL será /products/Id-do-item-clicado.
+            pathname: `/trybe_frontend_5-online_store/products/${productId}`, // É importante pontuar que, cada Card, possui sua própria página ProductDetails, cuja URL será /products/Id-do-item-clicado.
             state: { // A página ProductDetails, que é um componente, recebe informações (title, thumbnail, price...) referentes ao produto. Essas informações são passadas via <Link /> e encontradas em "const { location: { state: { title, thumbnail, price, idItem } } } = this.props".
               productId,
               title,
