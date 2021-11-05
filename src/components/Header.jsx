@@ -38,8 +38,8 @@ class Header extends React.Component {
           <h1>e-shop</h1>
         </div>
         <div id="linksBar">
-          <Link to="/trybe_frontend_5-online_store/">Pesquisa</Link>
-          <Link to="/trybe_frontend_5-online_store/cart" data-testid="shopping-cart-button">{`Carrinho - ${this.numOfCartItems()} produto(s) - R$ ${this.cartTotalValue()}`}</Link>
+          <Link to="/">Pesquisa</Link>
+          <Link to="/cart" data-testid="shopping-cart-button">{`Carrinho - ${this.numOfCartItems()} produto(s) - R$ ${this.cartTotalValue()}`}</Link>
         </div>
         { loading &&
           <div id="loadingContainer">

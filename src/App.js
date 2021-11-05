@@ -8,10 +8,10 @@ import ProductDetails from './pages/ProductDetails';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter> {/* Resolução do problema de reload Cart, no GH Pages. */}
+      <BrowserRouter basename="/trybe_frontend_5-online_store"> {/* Resolução do problema de reload Cart, no GH Pages. */}
         <Switch>
-          <Route exact path="/trybe_frontend_5-online_store/" render={ () => <Home /> } />
-          <Route exact path="/trybe_frontend_5-online_store/cart" render={ () => <Cart /> } />
+          <Route exact path="/" render={ () => <Home /> } />
+          <Route path="/cart" render={ () => <Cart /> } />
           <Route
             exact
             path="/products/:id"
