@@ -6,7 +6,7 @@ import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter basename="/trybe_frontend_5-online_store"> {/* Resolução do problema de reload Cart, no GH Pages. */}
+    <HashRouter> {/* Resolução do problema de reload Cart, no GH Pages. */}
       <App />
     </HashRouter>
   </React.StrictMode>,
