@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/trybe_frontend_5-online_store/static/css/main.17e20c56.chunk.css",
-    "main.js": "/trybe_frontend_5-online_store/static/js/main.f8b69fc7.chunk.js",
-    "main.js.map": "/trybe_frontend_5-online_store/static/js/main.f8b69fc7.chunk.js.map",
+    "main.js": "/trybe_frontend_5-online_store/static/js/main.ae0eaa07.chunk.js",
+    "main.js.map": "/trybe_frontend_5-online_store/static/js/main.ae0eaa07.chunk.js.map",
     "runtime-main.js": "/trybe_frontend_5-online_store/static/js/runtime-main.bac5e2eb.js",
     "runtime-main.js.map": "/trybe_frontend_5-online_store/static/js/runtime-main.bac5e2eb.js.map",
     "static/js/2.38f8b19c.chunk.js": "/trybe_frontend_5-online_store/static/js/2.38f8b19c.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.bac5e2eb.js",
     "static/js/2.38f8b19c.chunk.js",
     "static/css/main.17e20c56.chunk.css",
-    "static/js/main.f8b69fc7.chunk.js"
+    "static/js/main.ae0eaa07.chunk.js"
   ]
 }
