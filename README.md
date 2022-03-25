@@ -107,8 +107,8 @@ A tela básica da plataforma é a tela de **listagem de produtos**, onde quem us
 
 **PRIORIDADE 1** - Criar o botão de carrinho de compras na tela principal, de listagem de produtos, e criar uma tela para o carrinho de compras, inicialmente vazio.
 
-- [Tela do carrinho de compras](https://github.com/tryber/sd-014-a-project-frontend-online-store/tree/master/wireframes/card_03.png)
-- [Tela principal - Com botão do carrinho de compras](https://github.com/tryber/sd-014-a-project-frontend-online-store/tree/master/wireframes/bonus_shopping_cart_button.png)
+- [Tela do carrinho de compras](https://github.com/joaofelipelliccione/trybe_frontend_5-online_store/blob/main/wireframes/card_03.png)
+- [Tela principal - Com botão do carrinho de compras](https://github.com/joaofelipelliccione/trybe_frontend_5-online_store/blob/main/wireframes/bonus_shopping_cart_button.png)
 
 **Observações técnicas**
 
@@ -124,7 +124,7 @@ Quem usa o site irá adicionar produtos em seu carrinho de compras e finalizar a
 
 **PRIORIDADE 1** - Listar filtros de categoria obtidos da API na tela principal, de listagem do produto. A requisição da API para recuperar as categorias deve ser feita uma única vez após o carregamento da tela.
 
-- [Tela principal - Com a lista de categorias](https://github.com/tryber/sd-014-a-project-frontend-online-store/tree/master/wireframes/card_04.png)
+- [Tela principal - Com a lista de categorias](https://github.com/joaofelipelliccione/trybe_frontend_5-online_store/blob/main/wireframes/card_04.png)
 
 **Observações técnicas**
 
@@ -138,8 +138,8 @@ Um endpoint da API do Mercado Livre retorna as categorias de produto disponívei
 
 **PRIORIDADE 1** - Criar a listagem de produtos. Fazer a exibição resumida do produto (o "card" que aparece na listagem). A exibição deve ter título, foto e preço. Fazer requisição à API do Mercado Livre enviando os termos buscados por quem usa e usar o retorno para fazer a listagem dos produtos. Se a busca não retornar resultados, gerar a tela correspondente com o texto "Nenhum produto foi encontrado".
 
-- [Tela principal - Após a busca](https://github.com/tryber/sd-014-a-project-frontend-online-store/tree/master/wireframes/card_05.1.png)
-- [Tela principal - Nenhum produto encontrado](https://github.com/tryber/sd-014-a-project-frontend-online-store/tree/master/wireframes/card_05.2.png)
+- [Tela principal - Após a busca](https://github.com/joaofelipelliccione/trybe_frontend_5-online_store/blob/main/wireframes/card_05.1.png)
+- [Tela principal - Nenhum produto encontrado](https://github.com/joaofelipelliccione/trybe_frontend_5-online_store/blob/main/wireframes/card_05.2.png)
 
 **Observações técnicas**
 
@@ -166,7 +166,7 @@ O que será verificado:
 
 PRIORIDADE 3 - Como pessoa usuária, eu quero clicar no card do produto e visualizar a exibição detalhada do produto com nome do produto, imagem, preço e especificação técnica. A tela também deve possuir um botão que leve ao carrinho de compras.
 
-- [Tela - Detalhamento do produto](https://github.com/tryber/sd-014-a-project-frontend-online-store/tree/master/wireframes/card_07.png)
+- [Tela - Detalhamento do produto](https://github.com/joaofelipelliccione/trybe_frontend_5-online_store/blob/main/wireframes/card_07.png)
 
 **Observações técnicas**
 
@@ -197,7 +197,7 @@ Configure uma forma de adicionar produtos ao carrinho de compras a partir da tel
 
 **PRIORIDADE 3** - Na tela de exibição detalhada do produto, permitir adicionar o produto ao carrinho.
 
-- [Tela principal - Adicionar ao carrinho na exibição detalhada](https://github.com/tryber/sd-014-a-project-frontend-online-store/tree/master/wireframes/card_13.png)
+- [Tela principal - Adicionar ao carrinho na exibição detalhada](https://github.com/joaofelipelliccione/trybe_frontend_5-online_store/blob/main/wireframes/card_13.png)
 
 **Observações técnicas**
 
@@ -220,7 +220,7 @@ Obs: o teste deste requisito utiliza `data-testids` que são desenvolvidos em ou
 
 **PRIORIDADE 3** - Adicionar lista de produtos ao carrinho, com valor total ao final. Criar botões (-) e (+) para cada produto do carrinho, permitindo alterar a quantidade desejada de cada produto. A quantidade não pode ser negativa. Criar também botão (X) para remover produtos do carrinho e botão para finalizar a compra.
 
-- [Tela - Carrinho de compras com quantidades](https://github.com/tryber/sd-014-a-project-frontend-online-store/tree/master/wireframes/card_10.png)
+- [Tela - Carrinho de compras com quantidades](https://github.com/joaofelipelliccione/trybe_frontend_5-online_store/blob/main/wireframes/card_10.png)
 
 **Observações técnicas**
 
@@ -236,8 +236,8 @@ São operações básicas de carrinho a alteração da quantidade de um determin
 
 **PRIORIDADE 3** - Adicionar formulário ao produto, em sua exibição detalhada, para permitir adicionar avaliações com nota de 1 a 5 estrelas e comentários (o comentário deve ser opcional, sendo possível enviar apenas a nota). Exibir a lista de avaliações já feitas. Se quem usa sai e volta da tela, a nota e as avaliações não devem ser apagadas.
 
-- [Tela - Detalhamento do produto com avaliações](https://github.com/tryber/sd-014-a-project-frontend-online-store/tree/master/wireframes/card_11.1.png)
-- [Tela - Detalhamento do produto com avaliações pregressas](https://github.com/tryber/sd-014-a-project-frontend-online-store/tree/master/wireframes/card_11.2.png)
+- [Tela - Detalhamento do produto com avaliações](https://github.com/joaofelipelliccione/trybe_frontend_5-online_store/blob/main/wireframes/card_11.1.png)
+- [Tela - Detalhamento do produto com avaliações pregressas](https://github.com/joaofelipelliccione/trybe_frontend_5-online_store/blob/main/wireframes/card_11.2.png)
 
 **Observações técnicas**
 
@@ -252,7 +252,7 @@ Avaliações positivas de um produto contribuem para boas vendas e nos dão insu
 
 **PRIORIDADE 4** - Implementar tela para a finalização da compra. A tela deve conter uma seção para revisão dos produtos com o valor total da compra, um formulário para ter as informações do comprador e um a seção para escolher o método de pagamento. Ao se clicar em "Comprar", deve-se validar que o formulário está preenchido e que a forma de pagamento foi escolhida e, em caso positivo, deve-se zerar o estado, redirecionar para a tela inicial (listagem de produtos). Caso algo não tenha sido preenchido, mantém-se na mesma tela com o dados sem apagar e destaca-se os campos não preenchidos em vermelho.
 
-- [Tela - Finalização de compra](https://github.com/tryber/sd-014-a-project-frontend-online-store/tree/master/wireframes/card_12.png)
+- [Tela - Finalização de compra](https://github.com/joaofelipelliccione/trybe_frontend_5-online_store/blob/main/wireframes/card_12.png)
 
 **Observações técnicas**
 
@@ -278,7 +278,7 @@ O último grande passo do fluxo do e-commerce é a finalização da compra por p
 
 **PRIORIDADE 4** - Adicionar ao ícone do carrinho, em todas as telas em que ele aparece, um número com a quantidade de produtos adicionados.
 
-- [Tela - Listagem de produtos com carrinho e quantidade](https://github.com/tryber/sd-014-a-project-frontend-online-store/tree/master/wireframes/card_13.png)
+- [Tela - Listagem de produtos com carrinho e quantidade](https://github.com/joaofelipelliccione/trybe_frontend_5-online_store/blob/main/wireframes/card_13.png)
 
 **Observações técnicas**
 
@@ -306,8 +306,8 @@ Produtos tem disponibilidades limitadas. É uma péssima experiência de uso adi
 
 **PRIORIDADE 4** - Adicionar indicador de frete grátis à exibição resumida e detalhada do produto.
 
-- [Tela principal - Exibição detalhada de produto com frete gratis](https://github.com/tryber/sd-014-a-project-frontend-online-store/tree/master/wireframes/card_15.1.png)
-- [Tela - Detalhamento de produto com frete gratis](https://github.com/tryber/sd-014-a-project-frontend-online-store/tree/master/wireframes/card_15.2.png)
+- [Tela principal - Exibição detalhada de produto com frete gratis](https://github.com/joaofelipelliccione/trybe_frontend_5-online_store/blob/main/wireframes/card_15.1.png)
+- [Tela - Detalhamento de produto com frete gratis](https://github.com/joaofelipelliccione/trybe_frontend_5-online_store/blob/main/wireframes/card_15.2.png)
 
 **Observações técnicas**
 
@@ -332,7 +332,7 @@ As pessoas que vendem no Mercado Livre disponibilizam frete grátis a alguns pro
 
 **PRIORIDADE 5** - Criar um seletor dropdown que permite a lista de produtos ser ordenada por maior e menor preço.
 
-- [Tela principal - Ordenação por preço](https://github.com/tryber/sd-014-a-project-frontend-online-store/tree/master/wireframes/bonus_ordering.png)
+- [Tela principal - Ordenação por preço](https://github.com/joaofelipelliccione/trybe_frontend_5-online_store/blob/main/wireframes/bonus_ordering.png)
 
 #### 19. Coloque uma animação no carrinho para quando um produto for adicionado
 
@@ -342,19 +342,19 @@ As pessoas que vendem no Mercado Livre disponibilizam frete grátis a alguns pro
 
 **PRIORIDADE 5** - Exibir o conteúdo do carrinho num slider na lateral da tela, de forma que ele possa ser exibido e escondido através da interação com botão (veja os detalhes no card).
 
-- [Tela - Listagem com carrinho populado.png](https://github.com/tryber/sd-014-a-project-frontend-online-store/tree/master/wireframes/bonus_slider.1.png)
-- [Tela - Listagem com carrinho vazio.png](https://github.com/tryber/sd-014-a-project-frontend-online-store/tree/master/wireframes/bonus_slider.1.png)
+- [Tela - Listagem com carrinho populado.png](https://github.com/joaofelipelliccione/trybe_frontend_5-online_store/blob/main/wireframes/bonus_slider.1.png)
+- [Tela - Listagem com carrinho vazio.png](https://github.com/joaofelipelliccione/trybe_frontend_5-online_store/blob/main/wireframes/bonus_slider.1.png)
 
 #### 21. Destaque, na tela principal, os produtos já adicionados ao carrinho
 
 **PRIORIDADE 5** - Destacar produtos que já foram adicionados ao carrinho, diferenciando-o dos demais produtos da lista da página principal (veja os detalhes no card).
 
-- [Tela - Listagem com destaque.png](https://github.com/tryber/sd-014-a-project-frontend-online-store/tree/master/wireframes/bonus_marked_product.png)
+- [Tela - Listagem com destaque.png](https://github.com/joaofelipelliccione/trybe_frontend_5-online_store/blob/main/wireframes/bonus_marked_product.png)
 
 #### 22. Impeça que a quantidade do produto seja negativa
 
 **PRIORIDADE 5** - Da tela de detalhamento de produto, permitir alterar a quantidade daquele produto no carrinho, se ele estiver lá, com botões (-) e (+). A quantidade não pode ser negativa (veja detalhes no card).
 
-- [Tela - Detalhamento do produto com quantidade.png](https://github.com/tryber/sd-014-a-project-frontend-online-store/tree/master/wireframes/card_09.png)
+- [Tela - Detalhamento do produto com quantidade.png](https://github.com/joaofelipelliccione/trybe_frontend_5-online_store/blob/main/wireframes/card_09.png)
 
 ---
