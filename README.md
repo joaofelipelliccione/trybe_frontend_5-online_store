@@ -92,7 +92,7 @@ A variável `categories` deve conter o objeto JSON com as categorias obtidas atr
 
 **PRIORIDADE 0** - Criar o campo de busca da tela principal, a listagem de produtos, inicialmente vazia. A listagem vazia deve conter a mensagem "Digite algum termo de pesquisa ou escolha uma categoria".
 
-- [Tela principal - Antes da busca](https://github.com/tryber/sd-014-a-project-frontend-online-store/tree/master/wireframes/card_02.png)
+- [Tela principal - Antes da busca](https://github.com/joaofelipelliccione/trybe_frontend_5-online_store/blob/main/wireframes/card_02.png)
 
 **Observações técnicas**
 
